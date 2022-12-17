@@ -1,9 +1,3 @@
-html, body {
-  overflow-x: hidden;
-}
-body {
-  position: fixed;
-}
 /*variable*/
 :root{
     /*max width for responsive handler*/
