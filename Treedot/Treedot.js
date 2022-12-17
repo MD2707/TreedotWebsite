@@ -42,7 +42,7 @@ function td_rv_hdl() {
     for (var i = 0; i < reveals.length; i++) {
         var elementTop = reveals[i].getBoundingClientRect().top;
         var elementBottom = reveals[i].getBoundingClientRect().bottom;
-        if (elementBottom>window.screenTop &&  elementTop < window.innerHeight){
+        if (elementBottom>window.screenTop &&  elementTop <= window.innerHeight){
             if(reveals[i].classList.contains("td-fade-in")) reveals[i].classList.add("td-fade-in-active");
             else if(reveals[i].classList.contains("td-fade-left")) reveals[i].classList.add("td-fade-left-active");
             else if(reveals[i].classList.contains("td-fade-right")) reveals[i].classList.add("td-fade-right-active");
