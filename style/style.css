@@ -15,3 +15,29 @@ body{
     color: white;
     background-color: rgba(0, 0, 0, 0);
 }
+
+@media screen and (max-width:1140px )  {
+    #main-container>p,#main-container span{
+        font-size: 5rem;
+    }
+    .td-btn-s3{
+        padding: 4% 30%;
+    }
+}
+
+@media screen and (max-width:572px )  {
+    #main-container>p,#main-container span{
+        font-size: 3rem;
+    }
+    .td-btn-s3{
+        padding: 4% 10%;
+    }
+}
+@media screen and (max-width:342px )  {
+    #main-container>p,#main-container span{
+        font-size: 2rem;
+    }
+    .td-btn-s3{
+        padding: 4% 10%;
+    }
+}

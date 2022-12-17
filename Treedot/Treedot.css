@@ -264,7 +264,7 @@
 .td-footer-facebook{ background-image: url("img/facebook.png"); }
 
 /*handle responsive*/
-@media screen and (max-width: 1284px)  {
+@media screen and (max-width:1284px )  {
   .td-container-sided{
     flex-direction: column;
   }
@@ -273,16 +273,18 @@
   }
   .td-navbar{
     justify-content: space-around;
+    flex-direction: column;
     align-items: center;
 
   }
   .td-navbar a{
-    font-size: 1rem;
+    
+    font-size: 2rem;
     margin: 0.3rem;
   }
 
   .td-footer{
-    padding: 2rem 0rem;
+    padding: 4rem 0rem;
   }
 
   .td-footer-instagram,.td-footer-linkedin,.td-footer-twitter,.td-footer-github,.td-footer-facebook{

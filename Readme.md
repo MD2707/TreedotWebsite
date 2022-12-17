@@ -82,3 +82,5 @@ footer with all default social network available
 then add a button with the classe 
 
 .td-btn-switch
+
+At the end of the css file you  can find the responsive handling where you can change the max-width property for your website
