@@ -1,0 +1,14 @@
+/** SECONDE PAGE**/
+
+ *{
+    font-family: system-ui;
+ }
+
+body{
+    margin: 0rem 0rem;
+}
+
+.td-container-sided>*,.td-container-sided-rv>*,.td-container-sided p,.td-container-sided-rv p{
+    width: 70%;
+    text-align: center;
+}
